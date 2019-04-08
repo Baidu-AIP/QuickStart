@@ -1,0 +1,1 @@
+请参考 **百度语音合成** [订单播报类app应用案例](http://ai.baidu.com/docs#/QuickStart-TTS/top) 
