@@ -89,7 +89,11 @@ def read_file(image_path):
     调用远程服务
 """
 def request(url, data):
-    req = Request(url, json.dumps(data))
+    if IS_PY3:
+        req = Request(url, json.dumps(data).encode('utf-8'))
+    else:
+        req = Request(url, json.dumps(data))
+        
     has_error = False
     try:
         f = urlopen(req)
@@ -113,10 +117,15 @@ if __name__ == '__main__':
 
     file_content = read_file(filename)
 
+    if IS_PY3:
+        image_data = str(base64.b64encode(file_content), "UTF8")
+    else:
+        image_data = base64.b64encode(file_content)
+
     # 请求接口
     response = request(url, 
         {
-            'image': base64.b64encode(file_content),
+            'image': image_data,
             'threshold': 0.6
         })
 
