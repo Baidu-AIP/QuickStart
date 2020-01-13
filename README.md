@@ -12,4 +12,8 @@
 
 ### 百度EasyDL定制化训练和服务平台配套DEMO程序的python实现
 
-* ```EASYDL-OBJECTDETECT``` **定制化物体识别** [工业场景定制化物体识别案例](https://ai.baidu.com/docs#/QuickStart-EasyDL-Detect/top)
+* ```EASYDL-OBJECTDETECT``` **经典版-定制化物体识别** [工业场景定制化物体识别案例](https://ai.baidu.com/ai-doc/EASYDL/Mk38n3olo)
+
+* ```EASYDL-TEXT-CLASSIFY``` **经典版-定制化文本分类** [酒店评论分类案例](https://ai.baidu.com/ai-doc/EASYDL/Wk50yjkvb)
+
+* ```EASYDL-PRO-IMAGECLASSIFICATIN``` **高级版-定制图像分类** [工业场景材质分类案例](https://ai.baidu.com/ai-doc/EASYDL/Ck50yrls3)
