@@ -114,7 +114,8 @@ def print_result(filename, url):
     # 打印图片结果
     for data in result_json["result"]:
         print(u"  菜品名称: " + data["name"])
-        print(u"  菜品热量: " + data["calorie"])
+        if data[u'has_calorie']:
+            print(u"  菜品热量: " + data["calorie"])
 
 if __name__ == '__main__':
 
