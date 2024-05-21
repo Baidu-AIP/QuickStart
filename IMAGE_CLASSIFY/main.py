@@ -25,9 +25,9 @@ else:
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
-API_KEY = 'VlCzAIKSYNgjfkhC8PRLPx0Z'
-
-SECRET_KEY = '0G9cNdtwmx0GxlaCMgjHtvGvWYlTLIMu'
+# 请填写API_KEY和SECRET_KEY
+API_KEY = 'xxx'
+SECRET_KEY = 'xxx'
 
 
 IMAGE_RECOGNIZE_URL = "https://aip.baidubce.com/rest/2.0/image-classify/v2/dish"

@@ -19,9 +19,9 @@ else:
     from urllib2 import URLError
     from urllib import urlencode
 
-API_KEY = 'nu9r2plGFi3s1ugayDPSM6Mk'
-
-SECRET_KEY = 'G62YGnq84eKTqu0mBgvdpmC6gNBzHdai'
+# 请填写API_KEY和SECRET_KEY
+API_KEY = 'xxx'
+SECRET_KEY = 'xxx'
 
 TEXT = "三分钟前，由北京市顺义区二经路与二纬路交汇处北侧，北京首都国际机场T3航站楼 去往 东城区北三环东路36号喜来登大酒店(北京金隅店)"
 

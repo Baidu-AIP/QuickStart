@@ -25,9 +25,9 @@ else:
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
-API_KEY = 'GmhC18eVP1Fo1ECX911dtOzw'
-
-SECRET_KEY = 'PQ2ukO4Aec2PTsgQU9UkiEKYciavlZk8'
+# 请填写API_KEY和SECRET_KEY
+API_KEY = 'xxx'
+SECRET_KEY = 'xxx'
 
 
 OCR_URL = "https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic"

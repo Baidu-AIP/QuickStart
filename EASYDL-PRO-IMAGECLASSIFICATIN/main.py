@@ -28,11 +28,9 @@ ssl._create_default_https_context = ssl._create_unverified_context
 # 百度云控制台获取到ak，sk以及
 # EasyDL官网获取到URL
 
-# ak
-API_KEY = 'fj71jwS9N5Kp1cdme0m7ILdB'
-
-# sk
-SECRET_KEY = '8TYQXdL536asDLVZtk01CSGnzbd3UVpN'
+# 请填写API_KEY和SECRET_KEY
+API_KEY = 'xxx'
+SECRET_KEY = 'xxx'
 
 # url
 EASYDL_PRO_CLASSIFY_URL = "https://aip.baidubce.com/rpc/2.0/ai_custom_pro/v1/classification/material_classific"

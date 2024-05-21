@@ -29,11 +29,9 @@ ssl._create_default_https_context = ssl._create_unverified_context
 # 百度云控制台获取到ak，sk以及
 # EasyDL官网获取到URL
 
-# ak
-API_KEY = 'RgdpDFjOHmRQvphsi8bLhIYE'
-
-# sk
-SECRET_KEY = 'ja1pDyGaF3vgwPNW3T0EqEkkd5hgl8ug'
+# 请填写API_KEY和SECRET_KEY
+API_KEY = 'xxx'
+SECRET_KEY = 'xxx'
 
 # url
 EASYDL_TEXT_CLASSIFY_URL = "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/text_cls/hotel_comment"

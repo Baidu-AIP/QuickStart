@@ -26,9 +26,9 @@ else:
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
-API_KEY = 'jhDFBkvSQGtS9WPGZaE9IbcS'
-
-SECRET_KEY = 'e5OXupgG11ovUFkA2zhqPD4HsLO35bqd'
+# 请填写API_KEY和SECRET_KEY
+API_KEY = 'xxx'
+SECRET_KEY = 'xxx'
 
 
 COMMENT_TAG_URL = "https://aip.baidubce.com/rpc/2.0/nlp/v2/comment_tag"

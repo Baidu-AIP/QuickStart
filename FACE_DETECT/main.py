@@ -25,9 +25,9 @@ else:
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
-API_KEY = 'oWx5qAVA89FRPbjhbbGrKYX7'
-
-SECRET_KEY = 'WPsbvyKP9ZDKATbZyM05sROUt2OGiskk'
+# 请填写API_KEY和SECRET_KEY
+API_KEY = 'xxx'
+SECRET_KEY = 'xxx'
 
 
 FACE_DETECT = "https://aip.baidubce.com/rest/2.0/face/v3/detect"
@@ -116,7 +116,7 @@ if __name__ == '__main__':
     }))
 
     data = json.loads(response)
-    num = 65;
+    num = 65
 
     if data["error_code"] == 0:
         face_num = data["result"]["face_num"]
